@@ -22,7 +22,7 @@ jobs:
          uses: docker/build-push-action@v7
          with:
              push: True
-             tags: ${{ vars.DOCKERHUB_USERNAME }}/Devboard-fe-main:latest
+             tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-fe-main:latest
 
 
 #This is for Docker installation 
